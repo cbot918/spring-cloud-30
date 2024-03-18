@@ -1,8 +1,11 @@
-package com.example.sc.book;
+package com.example.sc.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+
+import com.example.sc.model.Book;
+import com.example.sc.repository.BookRepository;
 
 
 @Service
